@@ -1,0 +1,13 @@
+[package]
+name = "simple_link"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+simple_machine_id = { path = "../machine_id-rs" }
+simple_web = { path = "../simple_web-rs" }
+
+
+[lib]
+#crate-type = ["cdylib"]
+crate-type = ["staticlib"]
