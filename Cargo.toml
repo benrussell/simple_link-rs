@@ -5,7 +5,13 @@ edition = "2021"
 
 [dependencies]
 simple_machine_id = { path = "../machine_id-rs" }
-simple_web = { path = "../simple_web-rs" }
+#simple_machine_id = { git="https://github.com/benrussell/machine_id-rs.git", version = "0.1.0" }
+
+#simple_web = { path = "../simple_web-rs" }
+simple_web =  { git="https://github.com/benrussell/simple_web-rs.git", version = "0.1.0" }
+
+#simple_open = { path = "../simple_open-rs" }
+simple_open = { git="https://github.com/benrussell/simple_open-rs.git", version = "0.1.0" }
 
 
 [lib]
