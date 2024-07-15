@@ -944,6 +944,7 @@ dependencies = [
 [[package]]
 name = "simple_machine_id"
 version = "0.1.0"
+source = "git+https://github.com/benrussell/machine_id-rs.git#822042b17bf0c506e29177a91e7fd81bed04a2cb"
 dependencies = [
  "CoreFoundation-sys",
  "IOKit-sys",
